@@ -1,7 +1,7 @@
 
-CREATE DATABASE varun
+CREATE DATABASE varun;
 
-use varun
+use varun;
 
 CREATE TABLE employee( empno varchar(6) primary key, ename varchar(20) NOT NULL, job char(10), hiredate date, basic_sal float, comm float, dept_no varchar(4));
 
@@ -38,3 +38,4 @@ INSERT INTO salesman_mast VALUES("SA002", "Aron", "2, Avenue", "Gainesville", 12
 INSERT INTO salesman_mast VALUES("SA003", "Quincy", "2, moon App", "Janesville", 1235, "Florida", 2500, 200);
 INSERT INTO salesman_mast VALUES("SA004", "Teddy", "3, Silver-spoons", "Harryville", 1233, "Tennessee", 2300, 200);
 INSERT INTO salesman_mast VALUES("SA005", "Byron", "4, st. Street", "Puria", 12, "Illinois", 3500, 100);
+
